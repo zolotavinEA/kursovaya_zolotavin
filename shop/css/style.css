@@ -1,0 +1,157 @@
+/* body {
+	background-image:url(../images/wqer.png);
+	}
+	 */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+      
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+      
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+      
+ol, ul {
+    list-style: none;
+}
+    
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.site-title{
+	font-style:italic;
+	text-align: center;
+	color:black;
+}	
+.header{
+	width:100%;
+	min-height:50px;
+	background-color:#deb887;
+	
+}	
+.cart {
+    width: 350px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 60px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+	background: #FAEBD7;
+}
+
+.cart .name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.cart .cost {
+    font-size: 1.3rem;
+    /* margin: 40px; */
+}
+.cart .add-to-cart {
+    font-size: 1.3rem;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.cart .add-to-cart:hover {
+    background:#deb887;
+}
+.cart .add-to-cart:active {
+    background: red;
+}
+
+.goods-out::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-cart img {
+    width: 48px;
+	background-color:black;
+}
+
+.conteiner{
+    display:block;
+    height: 40px;
+    padding: 6px
+}
+.conteiner img{
+display:block;
+margin:auto;
+}	
+.wrapper{
+	display:flex;
+	flex-direction: row;
+	max-width: 1600px;
+	margin:0 auto;
+}
+
+.cart-button {
+    margin: 41px;
+    width: 37px;
+    height: 44px;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.sidebar{
+	/* display: flex; */
+	justify-content:right;
+	width:200px;
+}
+
+/* .fon{
+	background: url(../images/wqer.png) repeat;
+} */
+.del-goods{
+	color:white;
+	background-color:orange;
+}
+.minus-goods{
+	color:white;
+	background-color:orange;
+}
+.plus-goods{
+	color:white;
+	background-color:orange;
+}
+
+.cart-space{
+    margin: 2px 2px 2px 2px;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+}
+.cart-button{
+    margin: 41px;
+    width: 37px;
+    height: 44px;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.goods-count{
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    height: 5px;
+
+}

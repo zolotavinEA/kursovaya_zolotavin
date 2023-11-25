@@ -1,0 +1,44 @@
+{
+	"1":
+	{
+		"name": "Fender Stratocaster",
+		"cost": 78200,
+		"order":  3,
+		"img": "4.jpg"
+	},
+	"2":
+	{
+		"name": "Martin Acoustic",
+		"cost": 38000 ,
+		"order":  5,
+		"img": "3.jpg"
+	},
+	"3":
+	{
+		"name": "Fender Bass",
+		"cost": 42000,
+		"order":  1,
+		"img": "2.png"
+	},
+	"4":
+	{
+		"name": "Hawaian Ukulele",
+		"cost":  125000,
+		"order":  8,
+		"img": "123.jpg"
+	},
+	"5":
+	{
+		"name": "Fender Jazzmaster",
+		"cost":  75600,
+		"order":  9,
+		"img": "5.png"
+	},
+	"6":
+	{
+		"name": "Gibson Les Paul",
+		"cost":  144000,
+		"order":  10,
+		"img": "6.png"
+	}
+}

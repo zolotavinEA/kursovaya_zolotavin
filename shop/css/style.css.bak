@@ -1,0 +1,102 @@
+.site-title{
+	font-style:italic;
+	text-align: center;
+	color:black;
+}	
+.header{
+	width:100%;
+	min-height:50px;
+	background-color:#deb887;
+	
+}	
+.cart {
+    width: 250 px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 60px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+	background: #FAEBD7;
+}
+
+.cart .name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.cart .cost {
+    font-size: 1.3rem;
+    margin: 40px 1;
+}
+.cart .add-to-cart {
+    font-size: 1.3rem;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.cart .add-to-cart:hover {
+    background:#deb887;
+}
+.cart .add-to-cart:active {
+    background: red;
+}
+
+.goods-out::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-cart img {
+    width: 48px;
+	background-color:black;
+}
+.conteiner img{
+display:block;
+margin:auto;
+}	
+.wrapper{
+	display:flex;
+	flex-direction: row;
+	max-width: 1600px;
+	margin:0 auto;
+}
+
+.cart-button{
+	margin-top:43px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	
+	display:flex;
+	justify-content: left;
+	align-items:right;
+}
+
+.sidebar{
+	display:flex;
+	justify-content:end;
+	width:200px;
+}
+
+.fon{
+	background: url(../images/wqer.png) repeat;
+}
+.del-goods{
+	color:white;
+	background-color:orange;
+}
+.minus-goods{
+	color:white;
+	background-color:orange;
+}
+.plus-goods{
+	color:white;
+	background-color:orange;
+}
